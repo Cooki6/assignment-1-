@@ -1,4 +1,4 @@
-[7/1, 10:31 PM] prathyusha 🥰: number = int(input("Enter Number: "))
+int(input("Enter Number: "))
 total = 0
 for value in range(1, number + 1):
     total = total + value
@@ -13,7 +13,7 @@ Enter Number:
 ** Process exited - Return Code: 0 **
 Press Enter to exit terminal
 Online Python Compiler
-[7/1, 10:31 PM] prathyusha 🥰: def is_leap(year):
+ def is_leap(year):
     if year % 4==0 and year % 100!=0 or year % 400==0:
         return True
     else:
@@ -30,7 +30,8 @@ False
 ** Process exited - Return Code: 0 **
 Press Enter to exit terminal
 Online Python Compiler
-[7/1, 10:31 PM] prathyusha 🥰: n = int (input ())
+
+ n = int (input ())
 factorial = 1
 if n >= 1:
     for i in range (1, n+1):
